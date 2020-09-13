@@ -1,9 +1,12 @@
-const rawURL = "https://raw.githubusercontent.com/Supercrafter100/CubedcraftAPIDocumentation/master";
+const rawURL = "https://raw.githubusercontent.com/supercrafter100/CubedCraftAPIDocumentation/master";
+const token = "?token=AOB755LYNYAH7TWLZ44AJJS7LYY54"
 let endpoints = [];
 
 window.onload = async (e) => {
 
-	const data = await fetch(`${rawURL}/data.json`).then(res => res.json());
+
+
+	const data = await fetch(`${rawURL}/data.json${token}`).then(res => res.json());
 
 	data.forEach(async (c) => {
 		const auth = c.auth ? "Requires authorization." : "Doesn't require authorization";
@@ -72,7 +75,7 @@ window.onload = async (e) => {
 			const button = response.getElementsByTagName('button')[0];
             const code = response.getElementsByClassName("code")[0];
             const file = code.getAttribute("data-response");
-            code.innerText = await fetch(`${BASE_RAW}/responses/${file}`).then(res => res.text());
+            code.innerText = await fetch(`${rawURL}/responses/${file}${token}`).then(res => res.text());
             button.addEventListener("click", e => code.style.display = code.style.display === "none" ? "" : "none" );
 		};
 	});

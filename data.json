@@ -1,0 +1,14 @@
+[
+	{
+        "method": "get",
+        "name": "/servers",
+        "auth": false,
+        "endpoint": "https://api.minehut.com/servers",
+        "description": [
+            "Returns a list of currently online player servers."
+        ],
+        "response": {
+            "file": "servers.txt"
+        }
+    }
+]

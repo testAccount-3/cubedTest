@@ -1,0 +1,48 @@
+{
+    "server_count": 42,
+    "servers": [
+        {
+            "id": "a1662308091a4933818cc4f370941d95",
+            "name": "MythicMC",
+            "online": true,
+            "maxPlayers": 70,
+            "onlinePlayers": 3,
+            "players": [
+                "Foxay18",
+                "WhenUHackUNoob",
+                "karlkristian05"
+            ],
+            "software": "paper",
+            "version": "1.12",
+            "motd": "&cSeason 3! &7|| &cRELEASED!",
+            "official": false,
+            "started": 1599971021238,
+            "visibility": true,
+            "plan_id": 7
+        },
+        {
+            "id": "836deeb1fbac45a5bc37667644c306ff",
+            "name": "Warzone",
+            "online": true,
+            "maxPlayers": 100,
+            "onlinePlayers": 8,
+            "players": [
+                "gabitza1234",
+                "buildmaster432",
+                "feej2005",
+                "PPPerCola",
+                "haave",
+                "Lunawatch",
+                "Viagrin",
+                "Miisa04"
+            ],
+            "software": "spigot",
+            "version": "1.8",
+            "motd": "CubedCraft Official Warzone",
+            "official": true,
+            "started": 1599972866400,
+            "visibility": true,
+            "plan_id": 7
+        }...
+	]
+}
