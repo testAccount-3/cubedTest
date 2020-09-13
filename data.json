@@ -3,7 +3,7 @@
         "method": "get",
         "name": "/servers",
         "auth": false,
-        "endpoint": "https://api.minehut.com/servers",
+        "endpoint": "https://api.playerservers/com/servers",
         "description": [
             "Returns a list of currently online player servers."
         ],
